@@ -15,7 +15,7 @@ E:/Unity Project/Survival_game1/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62221
+61111
 Successfully changed project path to: E:/Unity Project/Survival_game1/My project
 E:/Unity Project/Survival_game1/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ E:/Unity Project/Survival_game1/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4260] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2518570925 [EditorId] 2518570925 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB60C2N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13072] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1636696868 [EditorId] 1636696868 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB60C2N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4260] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2518570925 [EditorId] 2518570925 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB60C2N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13072] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1636696868 [EditorId] 1636696868 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB60C2N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 787.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 535.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015784 seconds.
-- Loaded All Assemblies, in  4.144 seconds
+Registered in 0.017387 seconds.
+- Loaded All Assemblies, in  2.810 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 704 ms
+Android Extension - Scanning For ADB Devices 914 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.509 seconds
-Domain Reload Profiling: 5650ms
-	BeginReloadAssembly (850ms)
+- Finished resetting the current domain, in  1.741 seconds
+Domain Reload Profiling: 4548ms
+	BeginReloadAssembly (377ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (906ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (174ms)
-	LoadAllAssembliesAndSetupDomain (2182ms)
-		LoadAssemblies (825ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (446ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (1807ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2169ms)
-			TypeCache.Refresh (2167ms)
-				TypeCache.ScanAssembly (1431ms)
+		AnalyzeDomain (1793ms)
+			TypeCache.Refresh (1791ms)
+				TypeCache.ScanAssembly (1187ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1510ms)
+	FinalizeReload (1742ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1363ms)
+		SetupLoadedEditorAssemblies (1584ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (973ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (1189ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadAttributes (257ms)
 			ProcessInitializeOnLoadMethodAttributes (123ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -119,52 +119,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 21.624 seconds
-Refreshing native plugins compatible for Editor in 33.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.777 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.343 seconds
-Domain Reload Profiling: 22965ms
-	BeginReloadAssembly (331ms)
+- Finished resetting the current domain, in  1.197 seconds
+Domain Reload Profiling: 6970ms
+	BeginReloadAssembly (351ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (21083ms)
-		LoadAssemblies (20124ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (5179ms)
+		LoadAssemblies (4312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1140ms)
-			TypeCache.Refresh (1094ms)
-				TypeCache.ScanAssembly (959ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
+		AnalyzeDomain (1018ms)
+			TypeCache.Refresh (976ms)
+				TypeCache.ScanAssembly (850ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (1345ms)
+	FinalizeReload (1198ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (942ms)
+		SetupLoadedEditorAssemblies (836ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (623ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (24ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.47 seconds
-Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3543.
-Memory consumption went from 121.0 MB to 121.0 MB.
-Total: 5.502500 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.415800 ms MarkObjects: 4.521500 ms  DeleteObjects: 0.159900 ms)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3546.
+Memory consumption went from 121.2 MB to 121.2 MB.
+Total: 5.965200 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.386500 ms MarkObjects: 5.017300 ms  DeleteObjects: 0.159800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,9 +180,584 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 686491.115785 seconds.
+  Time since last request: 1670842.921691 seconds.
   path: Assets/Scene1.unity
   artifactKey: Guid(7e019e29331f32f46afe01ceeac9da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene1.unity using Guid(7e019e29331f32f46afe01ceeac9da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e456b3f247586abacbca4923f9cf1981') in 0.003219 seconds
+Start importing Assets/Scene1.unity using Guid(7e019e29331f32f46afe01ceeac9da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8cc3efc7a8fd2588d3abdfa2873410') in 0.003389 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  9.130 seconds
+Refreshing native plugins compatible for Editor in 56.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 25.205 seconds
+Domain Reload Profiling: 34335ms
+	BeginReloadAssembly (384ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (8478ms)
+		LoadAssemblies (1400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7186ms)
+			TypeCache.Refresh (7030ms)
+				TypeCache.ScanAssembly (6705ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (155ms)
+	FinalizeReload (25208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (11189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (572ms)
+			SetLoadedEditorAssemblies (83ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1660ms)
+			ProcessInitializeOnLoadAttributes (8121ms)
+			ProcessInitializeOnLoadMethodAttributes (544ms)
+			AfterProcessingInitializeOnLoad (208ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (116ms)
+Refreshing native plugins compatible for Editor in 69.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3549.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 30.228600 ms (FindLiveObjects: 1.137200 ms CreateObjectMapping: 1.075000 ms MarkObjects: 27.930000 ms  DeleteObjects: 0.082400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\Survival_game1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.506 seconds
+Refreshing native plugins compatible for Editor in 130.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 21.051 seconds
+Domain Reload Profiling: 26554ms
+	BeginReloadAssembly (421ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (4845ms)
+		LoadAssemblies (935ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4131ms)
+			TypeCache.Refresh (4014ms)
+				TypeCache.ScanAssembly (3911ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (105ms)
+	FinalizeReload (21052ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (709ms)
+			SetLoadedEditorAssemblies (84ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1153ms)
+			ProcessInitializeOnLoadAttributes (5009ms)
+			ProcessInitializeOnLoadMethodAttributes (509ms)
+			AfterProcessingInitializeOnLoad (196ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3552.
+Memory consumption went from 119.6 MB to 119.5 MB.
+Total: 5.693200 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.388600 ms MarkObjects: 4.805400 ms  DeleteObjects: 0.086900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 765.895641 seconds.
+  path: Assets/TextureMaterial/Materials/fire.mat
+  artifactKey: Guid(5c3a908d911d7d842a4e9371f705b646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextureMaterial/Materials/fire.mat using Guid(5c3a908d911d7d842a4e9371f705b646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd49300e4b4d8d3c4dae37bb025b91db9') in 1.660555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/Scripts/lightSwitch.cs
+  artifactKey: Guid(988da5ae6cecc0b4294b8552ad8da51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/lightSwitch.cs using Guid(988da5ae6cecc0b4294b8552ad8da51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '630f4c9c891840ec904764701b2efc14') in 0.165792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/TestMaterial/New Material 4.mat
+  artifactKey: Guid(238635a5d63452148baecb3e7646e1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TestMaterial/New Material 4.mat using Guid(238635a5d63452148baecb3e7646e1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2f410155baa8176b3ad8a346c94c77a') in 0.493362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000838 seconds.
+  path: Assets/Scene1.unity
+  artifactKey: Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scene1.unity using Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea785618921ebbbec6abac52b888d06d') in 0.078890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/TestMaterial/Light.mat
+  artifactKey: Guid(07b4dbe516e031546acac0a12ba05ca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TestMaterial/Light.mat using Guid(07b4dbe516e031546acac0a12ba05ca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40f7eda4ca367410af11a1dd8b89b80a') in 0.114257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat
+  artifactKey: Guid(2e701f9d6b8aa304c93f2af59c1ee5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat using Guid(2e701f9d6b8aa304c93f2af59c1ee5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eebe66693980bcb7d828f5fbca88d43') in 0.086519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 139.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3552.
+Memory consumption went from 71.7 MB to 71.7 MB.
+Total: 6.425900 ms (FindLiveObjects: 0.396200 ms CreateObjectMapping: 0.398800 ms MarkObjects: 5.591300 ms  DeleteObjects: 0.037600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 759.816731 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/BedsV1mat.mat
+  artifactKey: Guid(c8c42662026a30544a7c3bb902859d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/BedsV1mat.mat using Guid(c8c42662026a30544a7c3bb902859d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abc0392902780baaf3d9f7842b5c65bc') in 0.136473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RawWoodenFurnitureFree/Scenes
+  artifactKey: Guid(6dd7d8e3579ecbd408299aeedfca3ddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Scenes using Guid(6dd7d8e3579ecbd408299aeedfca3ddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c08c82d74c040b91943d1fcb98821ad') in 0.072366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/Chair02_albedoV2.png
+  artifactKey: Guid(d7456299277b9ff4db8b3193f85f71ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/Chair02_albedoV2.png using Guid(d7456299277b9ff4db8b3193f85f71ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27bcb2a7423e45e34beb80a2e06a54f4') in 0.920062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Table01matV2.mat
+  artifactKey: Guid(4d47e1a3163646541bbe77c7ce6d4899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Table01matV2.mat using Guid(4d47e1a3163646541bbe77c7ce6d4899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07d99d6ecc755fb6af192c35960e7925') in 0.165193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002598 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs
+  artifactKey: Guid(0f2d6592291cf6342b435d1efc865bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs using Guid(0f2d6592291cf6342b435d1efc865bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9108a42751644474efb4fa6bd7052bc') in 0.107790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/Cabinets00_albedoV1.png
+  artifactKey: Guid(00d6160ed160b4b4fb8876504640f483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/Cabinets00_albedoV1.png using Guid(00d6160ed160b4b4fb8876504640f483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7da73df67b8ad05c7077bcf2478ea9a5') in 0.244924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Table01.fbx
+  artifactKey: Guid(d63ad3cf858a7384cb2b9b9989e81080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/Table01.fbx using Guid(d63ad3cf858a7384cb2b9b9989e81080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a979cb98a14678b1f71dd1bc9422635') in 0.483403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab
+  artifactKey: Guid(a4e0ff4643b80d547ba35af8e6089350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab using Guid(a4e0ff4643b80d547ba35af8e6089350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ac80bbdf34b58cbf47c6811fd5b004a') in 0.162694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/planeDemo.mat
+  artifactKey: Guid(738e69b7d269e1d4ebb32227acf74f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/planeDemo.mat using Guid(738e69b7d269e1d4ebb32227acf74f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37287f303702c38fa3c7923c6fc13da3') in 0.154459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab
+  artifactKey: Guid(57d3e693aabffc0469483a7ea0e6d1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab using Guid(57d3e693aabffc0469483a7ea0e6d1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a6f86151c85f10f71459b2f90dc26e1') in 0.169625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Cabinet04.fbx
+  artifactKey: Guid(86f5484b88f6e4b40b3111ccff232762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/Cabinet04.fbx using Guid(86f5484b88f6e4b40b3111ccff232762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '640e2f13d61abf8f83db88a2b5f520d3') in 0.230051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002057 seconds.
+  path: Assets/RawWoodenFurnitureFree
+  artifactKey: Guid(fe5edaae56d6afe49abbdb91974a0f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree using Guid(fe5edaae56d6afe49abbdb91974a0f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdf8e36ab308ab179d19ecbcf153155a') in 0.114716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab
+  artifactKey: Guid(d7f16bebf84a8be45a4edf754a799508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab using Guid(d7f16bebf84a8be45a4edf754a799508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b337ec446d01901fdcd11693862f6f7b') in 0.164103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab
+  artifactKey: Guid(e3729cab5cd8f4c459ef8d249965eeae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab using Guid(e3729cab5cd8f4c459ef8d249965eeae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '968ee2588a7335b51a75a4a54fcdd7a3') in 0.244791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials
+  artifactKey: Guid(a1958159be3342048aa82791a7833a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials using Guid(a1958159be3342048aa82791a7833a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '961450db117ab1d89e2a81ee667a595e') in 0.112838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Chair02.fbx
+  artifactKey: Guid(0a2ece62a3195754bb82144abe3ea1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/Chair02.fbx using Guid(0a2ece62a3195754bb82144abe3ea1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0257267ecdfae8bf69c317db8255ca72') in 0.275744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/Table01_albedoV2.png
+  artifactKey: Guid(2b5436503a095884887bdba577a961fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/Table01_albedoV2.png using Guid(2b5436503a095884887bdba577a961fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c694db484fc4d2c96c547efaf8edf1') in 0.280427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models
+  artifactKey: Guid(debd59bb92c6f0d4fae5e9caab816e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models using Guid(debd59bb92c6f0d4fae5e9caab816e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de7567a09c40d65dc5ddbb94c7451a83') in 0.681312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000794 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab
+  artifactKey: Guid(5d17cce7704ff0c44985b9f2b7c1f930) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab using Guid(5d17cce7704ff0c44985b9f2b7c1f930) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '611cd7078fecc5efaf250ac246813608') in 0.185400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/BedsV1.png
+  artifactKey: Guid(7af63757bc4132e48a47644c7980cd10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/BedsV1.png using Guid(7af63757bc4132e48a47644c7980cd10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21a594f3375455a47473bbc70a0ecc3f') in 0.271877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/BedSingle01empty.fbx
+  artifactKey: Guid(ddbbcdccb4c9b5e4396203b293f11f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/BedSingle01empty.fbx using Guid(ddbbcdccb4c9b5e4396203b293f11f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92ab154d544eccd0fb52aa56819015ca') in 0.190184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab
+  artifactKey: Guid(0b4e64b68be2d404f8d503ed5ca46526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab using Guid(0b4e64b68be2d404f8d503ed5ca46526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57964af975d333fe49586136abf1a369') in 0.144739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/RawWoodenFurnitureFree/Scenes/Demo 1.unity
+  artifactKey: Guid(d49cbf776aac1de4d94e14261a1c68c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Scenes/Demo 1.unity using Guid(d49cbf776aac1de4d94e14261a1c68c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9b5b5d4b41a9abacc4b837746071e76') in 0.106342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Stool01matV1.mat
+  artifactKey: Guid(29a7f572b87277e47a3903d896453dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Stool01matV1.mat using Guid(29a7f572b87277e47a3903d896453dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1833748bfa5eea7e95d6d4b71b5da142') in 0.145653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Chair02matV2.mat
+  artifactKey: Guid(7e61e129382abbd4a9cac0d7a454017f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Chair02matV2.mat using Guid(7e61e129382abbd4a9cac0d7a454017f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '767d744eddb895038277b2e9a3749b39') in 0.161393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Table02.fbx
+  artifactKey: Guid(2de980d7f46661440b1596ea7802274c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/Table02.fbx using Guid(2de980d7f46661440b1596ea7802274c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dbfd286605d68d16546762cef4d0f5b') in 0.264191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Table02mat.mat
+  artifactKey: Guid(096070bb8d9227d478966d6167a528aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Table02mat.mat using Guid(096070bb8d9227d478966d6167a528aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9ba255f07464afbf0e37c46c44f34f4') in 0.148672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/Stool01_albedoV1.png
+  artifactKey: Guid(dd6433f524989d54eb82928446aa45da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/Stool01_albedoV1.png using Guid(dd6433f524989d54eb82928446aa45da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84132705ebfd159d62a8fb27f5fa64f1') in 0.279016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures/Table02_albedoV1.png
+  artifactKey: Guid(46a75c6d623aa804d86b834101a4260a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures/Table02_albedoV1.png using Guid(46a75c6d623aa804d86b834101a4260a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8980160a34095ec9ea9efd5d990cd50') in 0.305724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/RawWoodenFurnitureFree/Textures
+  artifactKey: Guid(6f577fa97a618654999d76a403f52fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Textures using Guid(6f577fa97a618654999d76a403f52fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f170c943cf8648ef1d31d568d36050e') in 0.107839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Stool01.fbx
+  artifactKey: Guid(c75af295d2864694cb2f98c459c43c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Models/Stool01.fbx using Guid(c75af295d2864694cb2f98c459c43c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68570aaf7a9145399f7dc71098ecf800') in 0.260682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Cabinets00matV1.mat
+  artifactKey: Guid(d2baf2fc045db4b4997b9871933227f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Cabinets00matV1.mat using Guid(d2baf2fc045db4b4997b9871933227f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86aaa031c8cd99b11538ee826b668052') in 0.151291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 61.059584 seconds.
+  path: Assets/RawWoodenFurnitureFree
+  artifactKey: Guid(fe5edaae56d6afe49abbdb91974a0f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree using Guid(fe5edaae56d6afe49abbdb91974a0f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f987fadb10819d8fe517463204d31a') in 0.004246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.994308 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs
+  artifactKey: Guid(0f2d6592291cf6342b435d1efc865bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs using Guid(0f2d6592291cf6342b435d1efc865bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c98251b33a4566fe6c482f0149200c') in 0.001791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067459 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab
+  artifactKey: Guid(e3729cab5cd8f4c459ef8d249965eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab using Guid(e3729cab5cd8f4c459ef8d249965eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f2527a68baafcda30338415d6afb4c') in 1.082461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab
+  artifactKey: Guid(5d17cce7704ff0c44985b9f2b7c1f930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab using Guid(5d17cce7704ff0c44985b9f2b7c1f930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968a1909f8eac45b5287a5a8280c6bc6') in 4.445055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab
+  artifactKey: Guid(d7f16bebf84a8be45a4edf754a799508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab using Guid(d7f16bebf84a8be45a4edf754a799508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b66b38e7d58049a4785f3e1f48f94ef') in 0.100545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab
+  artifactKey: Guid(a4e0ff4643b80d547ba35af8e6089350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab using Guid(a4e0ff4643b80d547ba35af8e6089350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f89edd32881cf0f2bc75fd63cec395') in 0.082226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab
+  artifactKey: Guid(57d3e693aabffc0469483a7ea0e6d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab using Guid(57d3e693aabffc0469483a7ea0e6d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f26665fdc9595927d70166ebc2a2ae') in 0.045043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab
+  artifactKey: Guid(0b4e64b68be2d404f8d503ed5ca46526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab using Guid(0b4e64b68be2d404f8d503ed5ca46526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058e9cc9f458faaebea10df5db4216b3') in 0.086336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 570.777735 seconds.
+  path: Assets/Scene1.unity
+  artifactKey: Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scene1.unity using Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75ea9edeef82f2a210cf513cc7fc12d') in 0.135463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.206820 seconds.
+  path: Assets/Scene1.unity
+  artifactKey: Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scene1.unity using Guid(7e019e29331f32f46afe01ceeac9da82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc96c8ad0637975a1e154c8906c42987') in 0.093551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
